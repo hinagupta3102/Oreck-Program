@@ -6,8 +6,7 @@ def main():
 resemble?
  Type Yes / No '''))
  if yes_no in("Yes", "yes") :
- variable = str(input("Are you an introvert or an extrovert?
-"))
+ variable = str(input("Are you an introvert or an extrovert?"))
  if variable in ("introvert", "extrovert"):
  per_1 = str(input('''Cool! Do you take your time to
 find the best solution, or do you try
@@ -25,9 +24,7 @@ Type "I take my time" or "I like to be quick." '''))
  print("Feel free to come back later")
  count = 1
  while (count < 2):
- product = str(input('''What would you like to know about? We
-have Vacuums, Air Purifiers,
-Air Fresheners, and Orbiters '''))
+ product = str(input('''What would you like to know about? We have Vacuums, Air Purifiers, Air Fresheners, and Orbiters '''))
  if product in ("orbiter", "Orbiter", "Orbiters", "orbiters"):
  print("You chose Orbiter!")
  elif product in ("Air Purifier", "air purifier", "Air
